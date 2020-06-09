@@ -73,7 +73,8 @@ export default function MainCalendarScreen(){
   return (
     <View style={styles.container}>
       <View style={styles.topNavigationView}>
-        <TouchableOpacity onPress={()=>{this.props.navigation.openDrawer()}}>
+        {/* <TouchableOpacity onPress={()=>{this.props.navigation.openDrawer()}}> */}
+        <TouchableOpacity>
           <Image source={require("../assets/sidemenu_btn.png")}/>
         </TouchableOpacity>
         <Text style={styles.topNavigationViewText}> DinDin </Text>
